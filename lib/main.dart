@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quotes/view/einstein_view.dart';
-import 'package:quotes/view/tesla_view.dart';
-import 'package:quotes/view/musk_view.dart';
+import 'package:quotes/view/v_einstein.dart';
+import 'package:quotes/view/v_tesla.dart';
+import 'package:quotes/view/v_musk.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'v_einstein_detail.dart';
 
 class Einstein extends StatelessWidget {
   @override
@@ -24,8 +25,12 @@ class Einstein extends StatelessWidget {
           margin: EdgeInsets.only(top: 24),
           alignment: Alignment.centerRight,
           child: ElevatedButton(
-            onPressed: () {},
-            child: Text("History"),
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (_) {
+                return EinsteinDetail();
+              }));
+            },
+            child: Text("Biography"),
           ),
         )
       ],
